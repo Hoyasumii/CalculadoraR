@@ -11,7 +11,10 @@ export default function Button({ children, onclick, redText=false, fullBlue=fals
 }
 
 Button.propTypes = {
-    children: PropTypes.string.isRequired,
+    children: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.node
+    ]).isRequired,
     onclick: PropTypes.func.isRequired,
     redText: PropTypes.bool,
     fullBlue: PropTypes.bool

@@ -1,6 +1,8 @@
 .display {
     /* Colors */
-    @apply bg-gray-950 text-white;
+    @apply bg-gray-950 text-cyan-500;
     /* Sizing */
-    @apply col-span-4 h-24 p-10 rounded-xl;
+    @apply flex flex-col p-5 items-end justify-center col-span-4 h-24 rounded-xl;
+    /* Typography */
+    @apply text-3xl font-bold;
 }
