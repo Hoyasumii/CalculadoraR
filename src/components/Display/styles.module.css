@@ -1,0 +1,6 @@
+.display {
+    /* Colors */
+    @apply bg-gray-950 text-white;
+    /* Sizing */
+    @apply col-span-4 h-24 p-10 rounded-xl;
+}

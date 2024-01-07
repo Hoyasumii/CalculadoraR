@@ -1,0 +1,21 @@
+.button {
+    /* Spacing and details */
+    @apply rounded-full border-none w-24 h-24 aspect-square;
+    /* Colors */
+    @apply bg-gray-950 text-cyan-500;
+    /* Typography */
+    @apply font-bold text-3xl;
+    /* Effects */
+    @apply transition-all duration-300 ease-in-out hover:bg-gray-900 active:bg-gray-800;
+}
+
+.redText {
+    @apply text-red-700;
+}
+
+.fullBlue {
+    /* Colors */
+    @apply bg-cyan-600 text-gray-300;
+    /* Effects */
+    @apply hover:bg-cyan-700 active:bg-cyan-800;
+}

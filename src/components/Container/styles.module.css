@@ -1,0 +1,6 @@
+.container {
+    /* Sizing */
+    @apply grid grid-cols-4 gap-4;
+    /* Colors */
+    @apply items-center justify-center py-5 min-w-fit max-w-fit;
+}
